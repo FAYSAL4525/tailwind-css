@@ -5,7 +5,7 @@ import ImageThree from "../images/food-pic-3.jpg";
 
 const Content = () => {
   return (
-    <div className="grid grid-flow-col grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-3">
       <div className="menu-card ">
         <img src={ImageOne} alt="egg" className="h-full rounded mb-20 shadow" />
         <div className="content-center">
